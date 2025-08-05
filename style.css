@@ -1,42 +1,53 @@
-/* Fonte padrão */
 body {
   font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
   margin: 40px;
-  background-color: #f4f4f4;
   color: #333;
 }
 
-/* Título principal */
 h1 {
-  color: #0055aa;
+  color: #003366;
   font-size: 36px;
 }
 
-/* Subtítulo (Conecte-se comigo) */
 h2 {
-  color: #003366;
-  margin-top: 40px;
+  color: #004080;
   font-size: 28px;
 }
 
-/* Parágrafos */
 p {
   font-size: 18px;
   line-height: 1.6;
 }
 
-/* Lista de contatos */
 ul {
   list-style-type: square;
   padding-left: 20px;
-  font-size: 18px;
 }
 
 a {
-  color: #0077cc;
+  color: #0066cc;
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  p, li {
+    font-size: 16px;
+  }
 }
